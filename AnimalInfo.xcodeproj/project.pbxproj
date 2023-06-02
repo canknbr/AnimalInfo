@@ -10,6 +10,10 @@
 		36108CAA2A2A276100CA6D60 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 36108CA72A2A276100CA6D60 /* locations.json */; };
 		36108CAB2A2A276100CA6D60 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 36108CA82A2A276100CA6D60 /* animals.json */; };
 		36108CAC2A2A276100CA6D60 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 36108CA92A2A276100CA6D60 /* videos.json */; };
+		36108CC12A2A317300CA6D60 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC02A2A317300CA6D60 /* VideoListView.swift */; };
+		36108CC32A2A317A00CA6D60 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC22A2A317A00CA6D60 /* MapView.swift */; };
+		36108CC52A2A318000CA6D60 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC42A2A318000CA6D60 /* GalleryView.swift */; };
+		36108CC72A2A318800CA6D60 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC62A2A318800CA6D60 /* MainView.swift */; };
 		36D929232A29C63900D80748 /* AnimalInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D929222A29C63900D80748 /* AnimalInfoApp.swift */; };
 		36D929252A29C63900D80748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D929242A29C63900D80748 /* ContentView.swift */; };
 		36D929272A29C63A00D80748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D929262A29C63A00D80748 /* Assets.xcassets */; };
@@ -30,6 +34,11 @@
 		36108CBC2A2A27A500CA6D60 /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
 		36108CBD2A2A27A600CA6D60 /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
 		36108CBE2A2A27A600CA6D60 /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
+		36108CBF2A2A29B600CA6D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36108CC02A2A317300CA6D60 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		36108CC22A2A317A00CA6D60 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		36108CC42A2A318000CA6D60 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		36108CC62A2A318800CA6D60 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		36D9291F2A29C63900D80748 /* AnimalInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D929222A29C63900D80748 /* AnimalInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalInfoApp.swift; sourceTree = "<group>"; };
 		36D929242A29C63900D80748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +72,10 @@
 			children = (
 				36D929222A29C63900D80748 /* AnimalInfoApp.swift */,
 				36D929242A29C63900D80748 /* ContentView.swift */,
+				36108CC02A2A317300CA6D60 /* VideoListView.swift */,
+				36108CC22A2A317A00CA6D60 /* MapView.swift */,
+				36108CC42A2A318000CA6D60 /* GalleryView.swift */,
+				36108CC62A2A318800CA6D60 /* MainView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -138,6 +151,7 @@
 		36D929212A29C63900D80748 /* AnimalInfo */ = {
 			isa = PBXGroup;
 			children = (
+				36108CBF2A2A29B600CA6D60 /* Info.plist */,
 				36108CAE2A2A277000CA6D60 /* App */,
 				36108CB12A2A278200CA6D60 /* Model */,
 				36108CB42A2A279700CA6D60 /* View */,
@@ -234,7 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D929252A29C63900D80748 /* ContentView.swift in Sources */,
+				36108CC72A2A318800CA6D60 /* MainView.swift in Sources */,
+				36108CC32A2A317A00CA6D60 /* MapView.swift in Sources */,
 				36D929232A29C63900D80748 /* AnimalInfoApp.swift in Sources */,
+				36108CC12A2A317300CA6D60 /* VideoListView.swift in Sources */,
+				36108CC52A2A318000CA6D60 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,11 +384,12 @@
 				DEVELOPMENT_TEAM = 56GPYX4M8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalInfo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,11 +414,12 @@
 				DEVELOPMENT_TEAM = 56GPYX4M8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalInfo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
