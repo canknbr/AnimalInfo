@@ -14,6 +14,15 @@
 		36108CC32A2A317A00CA6D60 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC22A2A317A00CA6D60 /* MapView.swift */; };
 		36108CC52A2A318000CA6D60 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC42A2A318000CA6D60 /* GalleryView.swift */; };
 		36108CC72A2A318800CA6D60 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC62A2A318800CA6D60 /* MainView.swift */; };
+		36108CC92A2A328100CA6D60 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CC82A2A328100CA6D60 /* CoverImageView.swift */; };
+		36108CCB2A2A35BB00CA6D60 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CCA2A2A35BB00CA6D60 /* CoverImageModel.swift */; };
+		36108CD02A2DD19400CA6D60 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 36108CCF2A2DD19400CA6D60 /* covers.json */; };
+		36108CD22A2DD20B00CA6D60 /* CodableBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CD12A2DD20B00CA6D60 /* CodableBundle.swift */; };
+		36108CD42A2DD59A00CA6D60 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CD32A2DD59A00CA6D60 /* AnimalListItemView.swift */; };
+		36108CD62A2DD7D500CA6D60 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CD52A2DD7D500CA6D60 /* AnimalModel.swift */; };
+		36108CD82A2DE04500CA6D60 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CD72A2DE04500CA6D60 /* AnimalDetailView.swift */; };
+		36108CDA2A2DE1DA00CA6D60 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CD92A2DE1DA00CA6D60 /* HeadingView.swift */; };
+		36108CDC2A2DE25F00CA6D60 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36108CDB2A2DE25F00CA6D60 /* InsetGalleryView.swift */; };
 		36D929232A29C63900D80748 /* AnimalInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D929222A29C63900D80748 /* AnimalInfoApp.swift */; };
 		36D929252A29C63900D80748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D929242A29C63900D80748 /* ContentView.swift */; };
 		36D929272A29C63A00D80748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D929262A29C63A00D80748 /* Assets.xcassets */; };
@@ -39,6 +48,15 @@
 		36108CC22A2A317A00CA6D60 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		36108CC42A2A318000CA6D60 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		36108CC62A2A318800CA6D60 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		36108CC82A2A328100CA6D60 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		36108CCA2A2A35BB00CA6D60 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		36108CCF2A2DD19400CA6D60 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		36108CD12A2DD20B00CA6D60 /* CodableBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundle.swift; sourceTree = "<group>"; };
+		36108CD32A2DD59A00CA6D60 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		36108CD52A2DD7D500CA6D60 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		36108CD72A2DE04500CA6D60 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		36108CD92A2DE1DA00CA6D60 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		36108CDB2A2DE25F00CA6D60 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		36D9291F2A29C63900D80748 /* AnimalInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D929222A29C63900D80748 /* AnimalInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalInfoApp.swift; sourceTree = "<group>"; };
 		36D929242A29C63900D80748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +78,7 @@
 		36108CAD2A2A276600CA6D60 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				36108CCF2A2DD19400CA6D60 /* covers.json */,
 				36108CA82A2A276100CA6D60 /* animals.json */,
 				36108CA72A2A276100CA6D60 /* locations.json */,
 				36108CA92A2A276100CA6D60 /* videos.json */,
@@ -83,6 +102,7 @@
 		36108CAF2A2A277500CA6D60 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				36108CD12A2DD20B00CA6D60 /* CodableBundle.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -97,6 +117,8 @@
 		36108CB12A2A278200CA6D60 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				36108CCA2A2A35BB00CA6D60 /* CoverImageModel.swift */,
+				36108CD52A2DD7D500CA6D60 /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +150,11 @@
 		36108CB42A2A279700CA6D60 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				36108CC82A2A328100CA6D60 /* CoverImageView.swift */,
+				36108CD32A2DD59A00CA6D60 /* AnimalListItemView.swift */,
+				36108CD72A2DE04500CA6D60 /* AnimalDetailView.swift */,
+				36108CD92A2DE1DA00CA6D60 /* HeadingView.swift */,
+				36108CDB2A2DE25F00CA6D60 /* InsetGalleryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,6 +245,8 @@
 				Base,
 			);
 			mainGroup = 36D929162A29C63900D80748;
+			packageReferences = (
+			);
 			productRefGroup = 36D929202A29C63900D80748 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D9292A2A29C63A00D80748 /* Preview Assets.xcassets in Resources */,
+				36108CD02A2DD19400CA6D60 /* covers.json in Resources */,
 				36108CAB2A2A276100CA6D60 /* animals.json in Resources */,
 				36108CAC2A2A276100CA6D60 /* videos.json in Resources */,
 				36108CAA2A2A276100CA6D60 /* locations.json in Resources */,
@@ -248,11 +278,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D929252A29C63900D80748 /* ContentView.swift in Sources */,
+				36108CD42A2DD59A00CA6D60 /* AnimalListItemView.swift in Sources */,
 				36108CC72A2A318800CA6D60 /* MainView.swift in Sources */,
+				36108CC92A2A328100CA6D60 /* CoverImageView.swift in Sources */,
+				36108CCB2A2A35BB00CA6D60 /* CoverImageModel.swift in Sources */,
+				36108CD82A2DE04500CA6D60 /* AnimalDetailView.swift in Sources */,
+				36108CD62A2DD7D500CA6D60 /* AnimalModel.swift in Sources */,
 				36108CC32A2A317A00CA6D60 /* MapView.swift in Sources */,
 				36D929232A29C63900D80748 /* AnimalInfoApp.swift in Sources */,
 				36108CC12A2A317300CA6D60 /* VideoListView.swift in Sources */,
 				36108CC52A2A318000CA6D60 /* GalleryView.swift in Sources */,
+				36108CDC2A2DE25F00CA6D60 /* InsetGalleryView.swift in Sources */,
+				36108CD22A2DD20B00CA6D60 /* CodableBundle.swift in Sources */,
+				36108CDA2A2DE1DA00CA6D60 /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,8 +425,8 @@
 				INFOPLIST_FILE = AnimalInfo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,6 +435,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CanKanbur.AnimalInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,8 +458,8 @@
 				INFOPLIST_FILE = AnimalInfo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,6 +468,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CanKanbur.AnimalInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
